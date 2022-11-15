@@ -11,6 +11,9 @@
     margin-left: 20px;
     font-size: 2vh;
 }
+.main-content{
+    max-width: 1000px;
+}
 .main-list{
     display: flex;
 }
@@ -51,7 +54,7 @@
 .card-img{
     width: 35%;
     height: 90%;
-    
+    margin-left: 10px;
     margin-top: 10px;
     
 }
@@ -94,7 +97,7 @@
 .py-badge{
     background-color: rgb(62 131 185);
     color: rgb(253 209 56);
-    width: 60px;
+    width: fit-content;
     padding: 4px;
     border-radius: 10px;
     font-weight: bold;
@@ -105,6 +108,7 @@
     border: 2px solid rgb(205, 184, 184);
     width: 90%;
     min-height: 400px;
+    max-width: 500px;
     margin-left: 5%; 
     margin-top: 50px;
     position: sticky;
