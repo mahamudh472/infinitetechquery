@@ -1,0 +1,46 @@
+                /* first select the main content area */
+.main-content{
+    min-height: 1000px;
+    margin-left: 2%;
+    margin-right: 2%;                         
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+            /* this will style the text as blog title */
+.blog-title{
+    font-size: 5vh;
+    font-weight: 700;
+    color: rgb(76, 72, 72);
+    margin-left: 6%;
+    padding-top: 20px;
+}
+        /* the uploader details is add on cards.css */
+
+        /* create a devider line */
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-top: 130px;
+}
+        /* style the text as blog text */
+.blog-p{
+    color: #222;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    line-height: 4.5vh;
+}
+        /* used for inner blog header which is not large as the blog title */
+.in-h{
+    color: rgb(241, 70, 27);
+    margin-left: 6%;
+    padding: 15px;
+    font-size: 27px;
+}
+        /* position the image as a blog image */
+#in-img{
+    max-height: 300px;
+    max-width: 80%;
+    margin-left: 10%;
+    padding: 15px;
+}
