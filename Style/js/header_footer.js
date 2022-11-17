@@ -20,11 +20,11 @@ class MyHeader extends HTMLElement{
                 </div>
             </div>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="" class="link">
+                <li class="nav-item"><a href="index.html" class="link">
                         HOME
                     </a>
                 </li>
-                <li class="nav-item"><a href="" class="link">
+                <li class="nav-item"><a href="error.html" class="link">
                         CATAGORIES
                     </a>
                 </li>
@@ -34,17 +34,17 @@ class MyHeader extends HTMLElement{
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="link">
+                    <a href="blog_list.html" class="link">
                         BANGLA BLOGS
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="link">
+                    <a href="error.html" class="link">
                         About
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="link">
+                    <a href="error.html" class="link">
                         Contact
                     </a>
                 </li>
@@ -85,7 +85,7 @@ class MyFooter extends HTMLElement{
                 <div class="f-head">Contact</div>
                 <div class="f-list">
                     <div class="l-item">infinitetechquery@gmail.com</div>
-                    <div class="l-item">Read Digital Merketing blogs</div>
+                    <div class="l-item">mahamud.wapkiz.com</div>
                     <div class="l-item c-logo">
                         <a href="" >
                             <img class="c-item" src="Style/Gallery/fb-white.png" alt="">
