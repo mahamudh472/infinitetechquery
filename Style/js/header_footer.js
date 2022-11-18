@@ -44,7 +44,7 @@ class MyHeader extends HTMLElement{
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="error.html" class="link">
+                    <a href="contact.html" class="link">
                         Contact
                     </a>
                 </li>
