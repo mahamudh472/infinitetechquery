@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Merketing</title>
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <script src="Style/js/header_footer.js"></script>
+    <style>
+        *{
+            font-family: monospace;
+        }
+        .main-content{
+            margin: 0 10%;
+        }
+        .box{
+            max-width: 600px;
+            width: 60%;
+            height: 35px;
+            outline: none;
+            border: 1px solid rgb(148, 148, 148);
+            font-size: 15px;
+            color: rgb(131, 134, 136);
+            padding-left: 10px;
+            border-radius: 4px;
+        }
+        #box3{
+            padding-top: 5px;
+        }
+        label{
+            margin-top: 30px;
+            margin-left: 0;
+            display: block;
+            margin-bottom: 0;
+            color: rgb(88, 90, 90);
+            font-size: 15px;
+        }
+        #btn{
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid rgb(140, 140, 140);
+            background-color: rgb(224, 219, 219);
+            margin: 10px 0px;
+        }
+        #btn:hover{
+            background-color: rgb(255, 252, 252);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <my-header></my-header>
+    
+    <div class="main-content" >
+        <h1>Contact</h1><hr>
+        <form action="index.html">
+            <label for="box1">How can we help?</label>
+            <input type="text" id="box1" class="box">
+            <label for="box2">Email</label>
+            <input type="email" id="box2" class="box" required>
+            <label for="box3">Please describe your issue.</label>
+            <textarea name="" id="box3" class="box" style="height: inherit;" cols="30" rows="10"></textarea><br>
+            <button id="btn">Submit</button>
+        </form>
+    </div>
+    <div class="space" style="height: 200px;">
+
+    </div>
+    <my-footer></my-footer>
+</body>
+</html><script src="Style/js/nav.js"></script>
